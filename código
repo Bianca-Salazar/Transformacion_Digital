@@ -1,0 +1,8 @@
+def calcular_promedio(lista):
+		“calcula el promedio de una lista de números
+			Parámetros:
+			Lista de números list: llista de valores numéricos
+			Retorna: float”
+	If len (lista) == 0:
+		Return 0,
+	Return sum(lista)/len(lista)
